@@ -20,7 +20,7 @@ and registers the route handler
 - Run "npm install"
 - Run "npm start"
 - You will now have this service running locally on port 8081
-- Using any http client, you can request the service by requesting the /resource path and passing in the field names as query string parameters (query string parameters must match the field names defined in the JSON)
+- Using any http client, you can request the service by passing in any of the field names defined in the JSON as query string parameters  
 
 Some sample HTTP requests which can be used to test:  
 [GET http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo](<http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo>)  
