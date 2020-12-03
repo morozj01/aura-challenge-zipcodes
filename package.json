@@ -15,6 +15,7 @@
   },
   "scripts": {
     "format:fix": "prettier --write **/*.{js,ts,md}",
-    "test": "jest"
+    "test": "jest",
+    "start":"node src/app"
   }
 }
