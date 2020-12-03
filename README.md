@@ -21,9 +21,9 @@ Run "npm test"
 - Using any http client, you can request the service by passing in the field names as query string parameters
 
 Some sample HTTP requests which can be used to test:  
-GET <http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo>  
-GET http://localhost:8081/resource?primary_city=amhe  
-GET <http://localhost:8081/resource?acceptable_cities=Livermore Fls>  
+[GET http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo](<http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo>)  
+[GET http://localhost:8081/resource?primary_city=amhe](http://localhost:8081/resource?primary_city=amhe)  
+[GET http://localhost:8081/resource?acceptable_cities=Livermore Fls](<http://localhost:8081/resource?acceptable_cities=Livermore Fls>)  
 
 # Aura Code Challenge
 
