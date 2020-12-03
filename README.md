@@ -1,4 +1,5 @@
-# Overview of what is implemented
+# My solution
+## Overview of what is implemented
 This service is built on top of a functional express server and can be tested with any http client
 The service can be described as consisting of 3 pieces
 - A route handler to listen for incoming http requests (./routes/resource.js)
@@ -8,11 +9,11 @@ The service can be described as consisting of 3 pieces
 The entry point for the service is ./app.js which is simply the top level module which instantiates the express server
 and registers the route handler
 
-# Testing the service
-## Unit Testing the simulated lambda function and database interface
+## Testing the service
+### Unit Testing the simulated lambda function and database interface
 Run "npm test"
 
-## Manually testing the service
+### Manually testing the service
 - Clone this repository
 - Run "npm install"
 - Run "npm start"
