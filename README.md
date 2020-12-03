@@ -1,6 +1,6 @@
 # My solution
 ## Overview of what is implemented
-This service is built on top of a functional express server and can be tested with any http client <br/>
+This service is built on top of a functional express server and can be tested with any http client  
 The service can be described as consisting of 3 pieces
 - A route handler to listen for incoming http requests (./routes/resource.js)
 - A simulated lambda function which is invoked by the route handler ("./utils/index.js)
@@ -20,11 +20,10 @@ Run "npm test"
 - You will now have this service running locally on port 8081
 - Using any http client, you can request the service by passing in the field names as query string parameters
 
-Some sample HTTP requests which can be used to test: <br/>
-GET <http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo><br/>
-GET http://localhost:8081/resource?primary_city=amhe<br/>
-GET <http://localhost:8081/resource?acceptable_cities=Livermore Fls><br/>
-
+Some sample HTTP requests which can be used to test:  
+GET <http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo>  
+GET http://localhost:8081/resource?primary_city=amhe  
+GET <http://localhost:8081/resource?acceptable_cities=Livermore Fls>  
 
 # Aura Code Challenge
 
