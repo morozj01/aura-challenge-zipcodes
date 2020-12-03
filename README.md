@@ -10,7 +10,7 @@ The entry point for the service is ./app.js which is simply the top level module
 and registers the route handler
 
 ## Testing the service
-### Unit Testing the simulated lambda function and database interface
+### Unit testing the simulated lambda function and database interface
 Run "npm test"
 
 ### Manually testing the service
