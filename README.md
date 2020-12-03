@@ -10,15 +10,17 @@ The entry point for the service is ./app.js which is simply the top level module
 and registers the route handler
 
 ## Testing the service
-### Unit testing the simulated lambda function and database interface
-Run "npm test"
+### Running the basic test suite
+- Clone this repository
+- Run "npm install"
+- Run "npm test"
 
 ### Manually testing the service
 - Clone this repository
 - Run "npm install"
 - Run "npm start"
 - You will now have this service running locally on port 8081
-- Using any http client, you can request the service by passing in the field names as query string parameters
+- Using any http client, you can request the service by requesting the /resource path and passing in the field names as query string parameters (query string parameters must match the field names defined in the JSON)
 
 Some sample HTTP requests which can be used to test:  
 [GET http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo](<http://localhost:8081/resource?timezone=America/New_York&county=Hampden County&primary_city=holyo>)  
